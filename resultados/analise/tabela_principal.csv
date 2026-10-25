@@ -1,0 +1,10 @@
+instancia,algoritmo,config,execucoes,media,desvio,minimo,mediana,referencia,gap_medio_ref_%,gap_minimo_ref_%,atingiu_otimo,avaliacoes,tempo_medio_s,tempo_por_mil_aval_ms
+pequena,SA,sa,30,1875.0,0.0,1875,1875.0,1875,0.0,0.0,30,50000,0.29,5.87
+pequena,GA,ga,30,2018.9,165.6,1875,1937.0,1875,7.68,0.0,12,50000,0.85,16.93
+pequena,GA sem cruzamento,ga_sem_cruzamento,30,2125.7,210.0,1875,2230.0,1875,13.37,0.0,6,50000,3.02,60.3
+media,SA,sa,30,17050.9,955.8,16189,16771.5,16332,4.4,-0.88,,150000,2.3,15.33
+media,GA,ga,30,19963.2,2097.7,16609,20175.0,16332,22.23,1.7,,150000,4.41,29.43
+media,GA sem cruzamento,ga_sem_cruzamento,30,19450.6,2220.7,16530,19023.5,16332,19.1,1.21,,150000,13.87,92.45
+grande,SA,sa,10,73666.2,2307.4,70010,73657.5,60417,21.93,15.88,,300000,9.73,32.44
+grande,GA,ga,10,88275.4,5751.7,79920,86731.5,60417,46.11,32.28,,300000,21.35,71.18
+grande,GA sem cruzamento,ga_sem_cruzamento,10,86944.3,6344.9,79042,86701.5,60417,43.91,30.83,,300000,45.58,151.94

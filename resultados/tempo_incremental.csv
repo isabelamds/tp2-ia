@@ -1,0 +1,10 @@
+instancia,vizinhanca,avaliacoes,tempo_completa_s,tempo_incremental_s,tempo_incremental_poda_s,ganho,ganho_poda
+pequena,swap,330,0.0019,0.0023,0.003,0.83,0.64
+pequena,insertion,605,0.0037,0.0029,0.0024,1.25,1.56
+pequena,2opt,330,0.001,0.0013,0.002,0.83,0.52
+media,swap,6125,0.067,0.0312,0.0246,2.15,2.72
+media,insertion,12005,0.1011,0.0499,0.0465,2.02,2.18
+media,2opt,6125,0.0472,0.0438,0.0299,1.08,1.58
+grande,swap,55875,1.2948,0.6999,0.6833,1.85,1.89
+grande,insertion,111005,2.5162,1.2461,0.9331,2.02,2.7
+grande,2opt,55875,1.4046,0.5984,0.6621,2.35,2.12

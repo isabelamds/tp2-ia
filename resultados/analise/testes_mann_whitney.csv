@@ -1,0 +1,10 @@
+instancia,A,B,mediana_A,mediana_B,U,p_valor,significativo_5%,menor_mediana
+pequena,SA,GA,1875.0,1937.0,180.0,8.069992837065151e-07,sim,SA
+pequena,SA,GA sem cruzamento,1875.0,2230.0,90.0,1.491599517062992e-09,sim,SA
+pequena,GA,GA sem cruzamento,1937.0,2230.0,313.5,0.03541952657083147,sim,GA
+media,SA,GA,16771.5,20175.0,84.0,6.525003519927024e-08,sim,SA
+media,SA,GA sem cruzamento,16771.5,19023.5,144.0,6.280939427426934e-06,sim,SA
+media,GA,GA sem cruzamento,20175.0,19023.5,528.5,0.24882780948800975,nao,GA sem cruzamento
+grande,SA,GA,73657.5,86731.5,0.0,0.00018267179110955002,sim,SA
+grande,SA,GA sem cruzamento,73657.5,86701.5,0.0,0.00018267179110955002,sim,SA
+grande,GA,GA sem cruzamento,86731.5,86701.5,59.0,0.5205228832757727,nao,GA sem cruzamento

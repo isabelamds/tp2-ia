@@ -1,0 +1,4 @@
+instancia,filhos_cruzamento,sucesso_cruzamento_%,sucesso_cruzamento_inicio_%,sucesso_cruzamento_fim_%,filhos_so_mutacao,sucesso_mutacao_%
+pequena,1464517,0.202,2.031,0.0,32483,0.299
+media,4399136,0.478,4.419,0.002,97864,0.671
+grande,2933920,0.843,6.147,0.05,65080,1.283
