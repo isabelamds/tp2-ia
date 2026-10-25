@@ -21,8 +21,7 @@ def _numero(texto):
 
 
 class OrcamentoEsgotado(Exception):
-    #Lancado pelo proprio problema quando um algoritmo tenta avaliar uma solucao alem do orcamento.
-
+    """Lancado pelo proprio problema quando um algoritmo tenta avaliar alem do orcamento."""
 
 class ProblemaManutencao:
 
