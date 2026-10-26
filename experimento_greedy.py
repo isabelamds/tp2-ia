@@ -8,12 +8,7 @@ e mede o custo por movimento da avaliacao incremental. Responde as perguntas do 
   - qual e a mais barata por movimento com avaliacao incremental?
   - quanto a avaliacao incremental ganha sobre a avaliacao completa?
 
-Uso:
-    python experimento_greedy.py                      # protocolo oficial, estrategia best
-    python experimento_greedy.py --estrategia best first
-    python experimento_greedy.py --orcamento 5000 --repeticoes 5 --bench-repeticoes 3   # teste rapido
-
-Entrada : instancias/manutencao_pequena.txt, _media.txt, _grande.txt
+Entrada : instancias/manutencao_pequena.txt, manutencao_media.txt, manutencao_grande.txt
 Saida   : resultados/
     t2_execucoes.csv       uma linha por (instancia, estrategia, vizinhanca, semente)
     t2_resumo.csv          media, desvio, mediana, minimo, gap e contagens por grupo
