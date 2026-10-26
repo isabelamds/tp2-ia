@@ -1,0 +1,37 @@
+instancia,n,estrategia,metrica,teste,comparacao,mediana_A,mediana_B,estatistica,p_valor,p_valor_holm,significativo,observacao
+manutencao_grande,150,best,melhor_h,Mann-Whitney U,swap vs insertion,477268.0,801139.5,0.0,0.00018267179110955002,0.0005480153733286501,True,
+manutencao_grande,150,best,melhor_h,Mann-Whitney U,swap vs 2opt,477268.0,495510.0,30.0,0.14046504815835495,0.14046504815835495,False,
+manutencao_grande,150,best,melhor_h,Mann-Whitney U,insertion vs 2opt,801139.5,495510.0,100.0,0.00018267179110955002,0.0005480153733286501,True,
+manutencao_grande,150,best,media_h_otimos_locais,Mann-Whitney U,swap vs insertion,nan,nan,,,,,"amostra insuficiente (n_A=0, n_B=0)"
+manutencao_grande,150,best,media_h_otimos_locais,Mann-Whitney U,swap vs 2opt,nan,nan,,,,,"amostra insuficiente (n_A=0, n_B=0)"
+manutencao_grande,150,best,media_h_otimos_locais,Mann-Whitney U,insertion vs 2opt,nan,nan,,,,,"amostra insuficiente (n_A=0, n_B=0)"
+manutencao_media,50,best,melhor_h,Mann-Whitney U,swap vs insertion,29453.0,20701.5,897.0,4.0771648468253186e-11,9.059578077486472e-11,True,
+manutencao_media,50,best,melhor_h,Mann-Whitney U,swap vs 2opt,29453.0,20746.5,900.0,3.019859359162157e-11,9.059578077486472e-11,True,
+manutencao_media,50,best,melhor_h,Mann-Whitney U,insertion vs 2opt,20701.5,20746.5,448.0,0.9823070530800847,0.9823070530800847,False,
+manutencao_media,50,best,media_h_otimos_locais,Mann-Whitney U,swap vs insertion,32058.5,20745,870.0,4.461750341666232e-11,9.059578077486472e-11,True,
+manutencao_media,50,best,media_h_otimos_locais,Mann-Whitney U,swap vs 2opt,32058.5,22060.0,900.0,3.019859359162157e-11,9.059578077486472e-11,True,
+manutencao_media,50,best,media_h_otimos_locais,Mann-Whitney U,insertion vs 2opt,20745,22060.0,279.0,0.018389294018493502,0.018389294018493502,True,
+manutencao_pequena,12,best,melhor_h,Mann-Whitney U,swap vs insertion,1875.0,1875.0,0.0,1.0,1.0,False,todos os valores iguais
+manutencao_pequena,12,best,melhor_h,Mann-Whitney U,swap vs 2opt,1875.0,1875.0,0.0,1.0,1.0,False,todos os valores iguais
+manutencao_pequena,12,best,melhor_h,Mann-Whitney U,insertion vs 2opt,1875.0,1875.0,0.0,1.0,1.0,False,todos os valores iguais
+manutencao_pequena,12,best,media_h_otimos_locais,Mann-Whitney U,swap vs insertion,2699.9350877192983,2441.1570512820513,900.0,3.0179667984904466e-11,9.05390039547134e-11,True,
+manutencao_pequena,12,best,media_h_otimos_locais,Mann-Whitney U,swap vs 2opt,2699.9350877192983,2239.469285714286,900.0,3.019859359162157e-11,9.05390039547134e-11,True,
+manutencao_pequena,12,best,media_h_otimos_locais,Mann-Whitney U,insertion vs 2opt,2441.1570512820513,2239.469285714286,900.0,3.0179667984904466e-11,9.05390039547134e-11,True,
+manutencao_grande,150,,tempo_ms_por_movimento[incremental_sem_poda],Wilcoxon pareado,swap vs insertion,0.006683476241606276,0.006589515021833407,9.0,0.064453125,0.193359375,False,
+manutencao_grande,150,,tempo_ms_por_movimento[incremental_sem_poda],Wilcoxon pareado,swap vs 2opt,0.006683476241606276,0.0066084965547964485,14.0,0.193359375,0.38671875,False,
+manutencao_grande,150,,tempo_ms_por_movimento[incremental_sem_poda],Wilcoxon pareado,insertion vs 2opt,0.006589515021833407,0.0066084965547964485,21.0,0.556640625,0.556640625,False,
+manutencao_grande,150,,tempo_ms_por_movimento[incremental_com_poda],Wilcoxon pareado,swap vs insertion,0.0062363244293901395,0.006104722917853056,11.0,0.10546875,0.31640625,False,
+manutencao_grande,150,,tempo_ms_por_movimento[incremental_com_poda],Wilcoxon pareado,swap vs 2opt,0.0062363244293901395,0.006145734049044383,14.0,0.193359375,0.38671875,False,
+manutencao_grande,150,,tempo_ms_por_movimento[incremental_com_poda],Wilcoxon pareado,insertion vs 2opt,0.006104722917853056,0.006145734049044383,26.0,0.921875,0.921875,False,
+manutencao_media,50,,tempo_ms_por_movimento[incremental_sem_poda],Wilcoxon pareado,swap vs insertion,0.0032073228586731216,0.0030823962930277664,1.0,0.00390625,0.0078125,True,
+manutencao_media,50,,tempo_ms_por_movimento[incremental_sem_poda],Wilcoxon pareado,swap vs 2opt,0.0032073228586731216,0.0030617775500642744,0.0,0.001953125,0.005859375,True,
+manutencao_media,50,,tempo_ms_por_movimento[incremental_sem_poda],Wilcoxon pareado,insertion vs 2opt,0.0030823962930277664,0.0030617775500642744,16.0,0.275390625,0.275390625,False,
+manutencao_media,50,,tempo_ms_por_movimento[incremental_com_poda],Wilcoxon pareado,swap vs insertion,0.002947636327304763,0.00286762932099972,0.0,0.001953125,0.005859375,True,
+manutencao_media,50,,tempo_ms_por_movimento[incremental_com_poda],Wilcoxon pareado,swap vs 2opt,0.002947636327304763,0.002802618368224678,3.0,0.009765625,0.01953125,True,
+manutencao_media,50,,tempo_ms_por_movimento[incremental_com_poda],Wilcoxon pareado,insertion vs 2opt,0.00286762932099972,0.002802618368224678,26.0,0.921875,0.921875,False,
+manutencao_pequena,12,,tempo_ms_por_movimento[incremental_sem_poda],Wilcoxon pareado,swap vs insertion,0.0017925454592455715,0.0023066529160854212,26.0,0.921875,0.921875,False,
+manutencao_pequena,12,,tempo_ms_por_movimento[incremental_sem_poda],Wilcoxon pareado,swap vs 2opt,0.0017925454592455715,0.0016189015062109595,2.0,0.005859375,0.017578125,True,
+manutencao_pequena,12,,tempo_ms_por_movimento[incremental_sem_poda],Wilcoxon pareado,insertion vs 2opt,0.0023066529160854212,0.0016189015062109595,4.0,0.013671875,0.02734375,True,
+manutencao_pequena,12,,tempo_ms_por_movimento[incremental_com_poda],Wilcoxon pareado,swap vs insertion,0.001642939396057927,0.002087363626298972,23.0,0.6953125,0.6953125,False,
+manutencao_pequena,12,,tempo_ms_por_movimento[incremental_com_poda],Wilcoxon pareado,swap vs 2opt,0.001642939396057927,0.0014721590835534066,0.0,0.001953125,0.005859375,True,
+manutencao_pequena,12,,tempo_ms_por_movimento[incremental_com_poda],Wilcoxon pareado,insertion vs 2opt,0.002087363626298972,0.0014721590835534066,2.0,0.005859375,0.01171875,True,
