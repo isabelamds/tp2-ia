@@ -1,0 +1,23 @@
+\begin{table}[ht]
+\centering
+\small
+\caption{Número de avaliações e tempo de parede por execução.}
+\label{tab:tempo_avaliacoes}
+\begin{tabular}{lllrrr}
+\hline
+Instância & Estratégia & Vizinhança & Avaliações (média) & Tempo por execução (s) & ms por avaliação \\
+\hline
+pequena (n=12) & best improvement & swap & 50000 & 0.09 $\pm$ 0.01 & 0.0018 \\
+pequena (n=12) & best improvement & insertion & 50000 & 0.09 $\pm$ 0.01 & 0.0017 \\
+pequena (n=12) & best improvement & 2opt & 50000 & 0.09 $\pm$ 0.01 & 0.0017 \\
+\hline
+media (n=50) & best improvement & swap & 150000 & 0.47 $\pm$ 0.07 & 0.0032 \\
+media (n=50) & best improvement & insertion & 150000 & 0.46 $\pm$ 0.01 & 0.0031 \\
+media (n=50) & best improvement & 2opt & 150000 & 0.44 $\pm$ 0.01 & 0.0029 \\
+\hline
+grande (n=150) & best improvement & swap & 300000 & 1.89 $\pm$ 0.03 & 0.0063 \\
+grande (n=150) & best improvement & insertion & 300000 & 1.89 $\pm$ 0.06 & 0.0063 \\
+grande (n=150) & best improvement & 2opt & 300000 & 1.84 $\pm$ 0.10 & 0.0061 \\
+\hline
+\end{tabular}
+\end{table}

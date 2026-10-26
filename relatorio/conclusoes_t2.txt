@@ -1,0 +1,24 @@
+CONCLUSÕES DO T2 (geradas automaticamente; confira antes de citar)
+
+1) Qualidade: vizinhança com menor mediana de melhor h
+  pequena (n=12)     best  -> empate (as três vizinhanças têm mediana 1875.0)
+  media (n=50)       best  -> insertion (mediana 20701.5); vs swap: p(Holm)=<0.001 (significativo); vs 2opt: p(Holm)=0.982 (não significativo)
+  grande (n=150)     best  -> swap (mediana 477268.0); vs insertion: p(Holm)=<0.001 (significativo); vs 2opt: p(Holm)=0.140 (não significativo)
+
+2) Custo por movimento com avaliação incremental (menor média)
+  pequena (n=12)     incremental (sem poda)   -> 2opt (1.63 µs; mais lenta: swap 2.57 µs)
+  pequena (n=12)     incremental (com poda)   -> 2opt (1.46 µs; mais lenta: swap 2.29 µs)
+  media (n=50)       incremental (sem poda)   -> 2opt (3.08 µs; mais lenta: swap 3.21 µs)
+  media (n=50)       incremental (com poda)   -> insertion (2.82 µs; mais lenta: swap 3.02 µs)
+  grande (n=150)     incremental (sem poda)   -> insertion (6.60 µs; mais lenta: swap 6.84 µs)
+  grande (n=150)     incremental (com poda)   -> insertion (6.13 µs; mais lenta: swap 6.42 µs)
+
+3) Ganho do incremental sobre a avaliação completa (×)
+  pequena (n=12)     incremental (sem poda): swap 0.85, insertion 0.88, 2opt 0.94 | incremental (com poda): swap 0.96, insertion 1.03, 2opt 1.05
+  media (n=50)       incremental (sem poda): swap 1.67, insertion 1.66, 2opt 1.66 | incremental (com poda): swap 1.77, insertion 1.83, 2opt 1.81
+  grande (n=150)     incremental (sem poda): swap 2.03, insertion 2.19, 2opt 2.12 | incremental (com poda): swap 2.17, insertion 2.36, 2opt 2.28
+
+4) Referência atingida (execuções com melhor h <= referência)
+  pequena (n=12)     best  swap 30/30, insertion 30/30, 2opt 30/30
+  media (n=50)       best  swap 0/30, insertion 0/30, 2opt 0/30
+  grande (n=150)     best  swap 0/10, insertion 0/10, 2opt 0/10

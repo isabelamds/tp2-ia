@@ -1,0 +1,10 @@
+Instância,Vizinhança,Movimentos por varredura,µs/mov. completa,µs/mov. incr. sem poda,µs/mov. incr. com poda,Ganho sem poda (×),Ganho com poda (×)
+pequena (n=12),swap,66,2.20,2.57,2.29,0.85,0.96
+pequena (n=12),insertion,121,2.18,2.49,2.12,0.88,1.03
+pequena (n=12),2opt,66,1.53,1.63,1.46,0.94,1.05
+media (n=50),swap,1225,5.35,3.21,3.02,1.67,1.77
+media (n=50),insertion,2401,5.16,3.11,2.82,1.66,1.83
+media (n=50),2opt,1225,5.11,3.08,2.82,1.66,1.81
+grande (n=150),swap,11175,13.91,6.84,6.42,2.03,2.17
+grande (n=150),insertion,22201,14.48,6.60,6.13,2.19,2.36
+grande (n=150),2opt,11175,14.09,6.65,6.18,2.12,2.28

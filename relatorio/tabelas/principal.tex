@@ -1,0 +1,23 @@
+\begin{table}[ht]
+\centering
+\small
+\caption{Melhor h encontrado por vizinhança (greedy descent com random restart). Gap relativo ao ótimo global (n=12) ou ao melhor valor conhecido (n=50 e n=150).}
+\label{tab:principal}
+\begin{tabular}{lllrrrrr}
+\hline
+Instância & Estratégia & Vizinhança & Média $\pm$ DP & Mínimo & Mediana & Gap da média (\%) & Gap do melhor (\%) \\
+\hline
+pequena (n=12) & best improvement & swap & 1875.0 $\pm$ 0.0 & 1875 & 1875.0 & 0.0 & 0.0 \\
+pequena (n=12) & best improvement & insertion & 1875.0 $\pm$ 0.0 & 1875 & 1875.0 & 0.0 & 0.0 \\
+pequena (n=12) & best improvement & 2opt & 1875.0 $\pm$ 0.0 & 1875 & 1875.0 & 0.0 & 0.0 \\
+\hline
+media (n=50) & best improvement & swap & 29439.5 $\pm$ 2718.3 & 24590 & 29453.0 & 80.3 & 50.6 \\
+media (n=50) & best improvement & insertion & 20662.0 $\pm$ 2391.8 & 16681 & 20701.5 & 26.5 & 2.1 \\
+media (n=50) & best improvement & 2opt & 20637.1 $\pm$ 1523.8 & 17919 & 20746.5 & 26.4 & 9.7 \\
+\hline
+grande (n=150) & best improvement & swap & 472941.2 $\pm$ 23438.6 & 416282 & 477268.0 & 682.8 & 589.0 \\
+grande (n=150) & best improvement & insertion & 802247.8 $\pm$ 55208.9 & 718854 & 801139.5 & 1227.9 & 1089.8 \\
+grande (n=150) & best improvement & 2opt & 492540.1 $\pm$ 33329.5 & 441967 & 495510.0 & 715.2 & 631.5 \\
+\hline
+\end{tabular}
+\end{table}

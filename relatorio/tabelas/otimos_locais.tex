@@ -1,0 +1,23 @@
+\begin{table}[ht]
+\centering
+\small
+\caption{Reinícios, passos de melhoria e ótimos locais distintos encontrados dentro do orçamento.}
+\label{tab:otimos_locais}
+\begin{tabular}{lllrrrrrr}
+\hline
+Instância & Estratégia & Vizinhança & Reinícios (média) & Passos de melhoria (média) & Ótimos locais distintos (média [mín–máx]) & Execuções com $\geq$1 ótimo local & h médio dos ótimos locais & Execuções que atingiram a referência \\
+\hline
+pequena (n=12) & best improvement & swap & 89.4 & 667.6 & 60.4 [54–67] & 30/30 & 2692.8 & 30/30 \\
+pequena (n=12) & best improvement & insertion & 49.3 & 363.7 & 12.9 [10–17] & 30/30 & 2429.1 & 30/30 \\
+pequena (n=12) & best improvement & 2opt & 82.1 & 674.9 & 26.6 [22–33] & 30/30 & 2244.8 & 30/30 \\
+\hline
+media (n=50) & best improvement & swap & 3.0 & 120.0 & 2.0 [2–2] & 30/30 & 32109.2 & 0/30 \\
+media (n=50) & best improvement & insertion & 2.0 & 61.0 & 1.0 [0–1] & 29/30 & 20726.4 & 0/30 \\
+media (n=50) & best improvement & 2opt & 3.0 & 120.0 & 2.0 [2–2] & 30/30 & 22145.6 & 0/30 \\
+\hline
+grande (n=150) & best improvement & swap & 1.0 & 26.0 & 0.0 [0–0] & 0/10 & — & 0/10 \\
+grande (n=150) & best improvement & insertion & 1.0 & 13.0 & 0.0 [0–0] & 0/10 & — & 0/10 \\
+grande (n=150) & best improvement & 2opt & 1.0 & 26.0 & 0.0 [0–0] & 0/10 & — & 0/10 \\
+\hline
+\end{tabular}
+\end{table}

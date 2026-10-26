@@ -1,0 +1,19 @@
+Instância,Estratégia,Métrica,Comparação,Teste,Mediana A,Mediana B,p-valor,p (Holm),Significativo
+pequena (n=12),—,tempo/mov. (incr. sem poda),swap vs insertion,Wilcoxon pareado,0.001793,0.002307,0.922,0.922,não
+pequena (n=12),—,tempo/mov. (incr. sem poda),swap vs 2opt,Wilcoxon pareado,0.001793,0.001619,0.006,0.018,sim
+pequena (n=12),—,tempo/mov. (incr. sem poda),insertion vs 2opt,Wilcoxon pareado,0.002307,0.001619,0.014,0.027,sim
+pequena (n=12),—,tempo/mov. (incr. com poda),swap vs insertion,Wilcoxon pareado,0.001643,0.002087,0.695,0.695,não
+pequena (n=12),—,tempo/mov. (incr. com poda),swap vs 2opt,Wilcoxon pareado,0.001643,0.001472,0.002,0.006,sim
+pequena (n=12),—,tempo/mov. (incr. com poda),insertion vs 2opt,Wilcoxon pareado,0.002087,0.001472,0.006,0.012,sim
+media (n=50),—,tempo/mov. (incr. sem poda),swap vs insertion,Wilcoxon pareado,0.003207,0.003082,0.004,0.008,sim
+media (n=50),—,tempo/mov. (incr. sem poda),swap vs 2opt,Wilcoxon pareado,0.003207,0.003062,0.002,0.006,sim
+media (n=50),—,tempo/mov. (incr. sem poda),insertion vs 2opt,Wilcoxon pareado,0.003082,0.003062,0.275,0.275,não
+media (n=50),—,tempo/mov. (incr. com poda),swap vs insertion,Wilcoxon pareado,0.002948,0.002868,0.002,0.006,sim
+media (n=50),—,tempo/mov. (incr. com poda),swap vs 2opt,Wilcoxon pareado,0.002948,0.002803,0.010,0.020,sim
+media (n=50),—,tempo/mov. (incr. com poda),insertion vs 2opt,Wilcoxon pareado,0.002868,0.002803,0.922,0.922,não
+grande (n=150),—,tempo/mov. (incr. sem poda),swap vs insertion,Wilcoxon pareado,0.006683,0.00659,0.064,0.193,não
+grande (n=150),—,tempo/mov. (incr. sem poda),swap vs 2opt,Wilcoxon pareado,0.006683,0.006608,0.193,0.387,não
+grande (n=150),—,tempo/mov. (incr. sem poda),insertion vs 2opt,Wilcoxon pareado,0.00659,0.006608,0.557,0.557,não
+grande (n=150),—,tempo/mov. (incr. com poda),swap vs insertion,Wilcoxon pareado,0.006236,0.006105,0.105,0.316,não
+grande (n=150),—,tempo/mov. (incr. com poda),swap vs 2opt,Wilcoxon pareado,0.006236,0.006146,0.193,0.387,não
+grande (n=150),—,tempo/mov. (incr. com poda),insertion vs 2opt,Wilcoxon pareado,0.006105,0.006146,0.922,0.922,não

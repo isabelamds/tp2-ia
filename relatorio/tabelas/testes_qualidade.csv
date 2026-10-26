@@ -1,0 +1,19 @@
+Instância,Estratégia,Métrica,Comparação,Teste,Mediana A,Mediana B,p-valor,p (Holm),Significativo
+pequena (n=12),best improvement,melhor h,swap vs insertion,Mann-Whitney U,1875,1875,1.000,1.000,não
+pequena (n=12),best improvement,melhor h,swap vs 2opt,Mann-Whitney U,1875,1875,1.000,1.000,não
+pequena (n=12),best improvement,melhor h,insertion vs 2opt,Mann-Whitney U,1875,1875,1.000,1.000,não
+pequena (n=12),best improvement,h médio dos ótimos locais,swap vs insertion,Mann-Whitney U,2700,2441,<0.001,<0.001,sim
+pequena (n=12),best improvement,h médio dos ótimos locais,swap vs 2opt,Mann-Whitney U,2700,2239,<0.001,<0.001,sim
+pequena (n=12),best improvement,h médio dos ótimos locais,insertion vs 2opt,Mann-Whitney U,2441,2239,<0.001,<0.001,sim
+media (n=50),best improvement,melhor h,swap vs insertion,Mann-Whitney U,2.945e+04,2.07e+04,<0.001,<0.001,sim
+media (n=50),best improvement,melhor h,swap vs 2opt,Mann-Whitney U,2.945e+04,2.075e+04,<0.001,<0.001,sim
+media (n=50),best improvement,melhor h,insertion vs 2opt,Mann-Whitney U,2.07e+04,2.075e+04,0.982,0.982,não
+media (n=50),best improvement,h médio dos ótimos locais,swap vs insertion,Mann-Whitney U,3.206e+04,2.074e+04,<0.001,<0.001,sim
+media (n=50),best improvement,h médio dos ótimos locais,swap vs 2opt,Mann-Whitney U,3.206e+04,2.206e+04,<0.001,<0.001,sim
+media (n=50),best improvement,h médio dos ótimos locais,insertion vs 2opt,Mann-Whitney U,2.074e+04,2.206e+04,0.018,0.018,sim
+grande (n=150),best improvement,melhor h,swap vs insertion,Mann-Whitney U,4.773e+05,8.011e+05,<0.001,<0.001,sim
+grande (n=150),best improvement,melhor h,swap vs 2opt,Mann-Whitney U,4.773e+05,4.955e+05,0.140,0.140,não
+grande (n=150),best improvement,melhor h,insertion vs 2opt,Mann-Whitney U,8.011e+05,4.955e+05,<0.001,<0.001,sim
+grande (n=150),best improvement,h médio dos ótimos locais,swap vs insertion,Mann-Whitney U,—,—,n/d,n/d,—
+grande (n=150),best improvement,h médio dos ótimos locais,swap vs 2opt,Mann-Whitney U,—,—,n/d,n/d,—
+grande (n=150),best improvement,h médio dos ótimos locais,insertion vs 2opt,Mann-Whitney U,—,—,n/d,n/d,—
